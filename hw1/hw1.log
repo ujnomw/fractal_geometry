@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.31)  30 APR 2019 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.10.31)  30 APR 2019 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,27 +787,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--179
+Underfull \hbox (badness 10000) in paragraph at lines 129--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--179
+Underfull \hbox (badness 10000) in paragraph at lines 129--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--179
+Underfull \hbox (badness 10000) in paragraph at lines 129--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--234
+Underfull \hbox (badness 10000) in paragraph at lines 182--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--234
+Underfull \hbox (badness 10000) in paragraph at lines 182--212
 
  []
 
@@ -832,7 +832,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on hw1.pdf (3 pages, 107379 bytes).
+Output written on hw1.pdf (3 pages, 107508 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
