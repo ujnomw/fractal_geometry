@@ -19,10 +19,16 @@
 \pagenumbering{arabic}
 \section{} % 1
 Докажем, что $\rho_1(x,y)=\sqrt{4(x_1-y_1)^2 + 3(x_2 - y_2)^2}$ метрика. Выполнение первых двух аксиом очевидно, докажем неравенство треугольника:\\
-доказательство\\
+$\forall x,y,z \in \mathbb{R}^2$:
+\begin{multline*}
+  \sqrt{4(x_1-z_1)^2 + 3(x_2 - z_2)^2} + \sqrt{4(z_1-y_1)^2 + 3(z_2 - y_2)^2} \geq \\
+  \geq \sqrt{4(x_1-z_1)^2 + 3(x_2 - z_2)^2 + 4(z_1-y_1)^2 + 3(z_2 - y_2)^2} = \\
+  = \sqrt{4((x_1-z_1)^2 - (z_1-y_1)^2) + 3((x_2 - z_2)^2 + (z_2 - y_2)^2)} \geq \\
+  \geq \sqrt{4(x_1-y_1)^2 + 3(x_2 - y_2)^2}
+\end{multline*}
 Данная метрика эквивалентна евклидовой:
 \begin{multline*}
-\sqrt{3}\rho(x,y) = \sqrt{3(x_1-y_1)^2 + 3(x_2 - y_2)^2} \leq \sqrt{4(x_1-y_1)^2 + 3(x_2 - y_2)^2}\\
+\sqrt{3}\rho(x,y) = \sqrt{3(x_1-y_1)^2 + 3(x_2 - y_2)^2} \leq \sqrt{4(x_1-y_1)^2 + 3(x_2 - y_2)^2} \leq \\
  \leq \sqrt{4(x_1-y_1)^2 + 4(x_2 - y_2)^2} = 2\rho(x,y)
 \end{multline*}
 \section{} % 2
@@ -33,7 +39,9 @@
     r_b = \sup_{a \in A}\inf_{b \in B}\rho(a, b)\\
   \end{aligned}
 \end{equation*}
-paint
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{hw1-1.jpg}
+\end{figure}\\
 \begin{equation*}
 \begin{aligned}
 r_a = \sqrt{35}\\
@@ -53,7 +61,7 @@ e\\
 f
 \end{pmatrix}
 \end{equation*}
-Преобрзование изменяет точки: $A(0,0)\rightarrow P(3,6)$, $B(1,0)\rightarrow Q(1,-4)$,
+Преобразование изменяет точки: $A(0,0)\rightarrow P(3,6)$, $B(1,0)\rightarrow Q(1,-4)$,
 $C(1,1) \rightarrow R(-3,-3)$, $D(0,1)\rightarrow S(-1,7)$. То есть:\\
 \begin{equation*}
 \begin{pmatrix}
@@ -154,9 +162,9 @@ $\\
 $\varphi = -\frac{2\pi}{3}$\\
 $A=( \, -3, 4) \,$\\
 \\
-$f({\overline{x}})= \frac{1}{2}\left(
+\begin{equation*} f({\overline{x}})= \frac{1}{2}\left(
 \begin{matrix}
-\-1 & \sqrt{3}\\
+-1 & \sqrt{3}\\
 -\sqrt{3} & -1\\
 \end{matrix}
 \right
@@ -177,9 +185,28 @@ $f({\overline{x}})= \frac{1}{2}\left(
 \end{matrix}
 \right
 )
-$\\
+\end{equation*}\\
+\begin{equation*}
+f({\overline{x}})= \frac{1}{2}\left(
+\begin{matrix}
+-1 & \sqrt{3}\\
+-\sqrt{3} & -1\\
+\end{matrix}
+\right
+)
+{\overline{x}} + \frac{1}{2}
+\left(
+\begin{matrix}
+-9 - 4\sqrt{3}\\
+12 - 3\sqrt{3}\\
+\end{matrix}
+\right
+)
+\end{equation*}
 \section{} % 5
-graph\\
+\begin{figure}[h!]
+  \includegraphics[width=\linewidth]{hw1-2.jpg}
+\end{figure}
 $x_2 = 2x_1 + 5$\\
 $f({\overline{x}})= \left(
 \begin{matrix}
@@ -206,7 +233,7 @@ c\\
 )
 $\\
 \\
-$\tan{\Theta} = 2\;  c = 5$\\
+$\tan{\Theta} = 2\;\\  c = 5$\\
 $\sin{2\Theta} = \frac{2\tan{\Theta}}{1+\tan^2{\Theta}}=\frac{4}{5}$\\
 $\cos{2\Theta} = \frac{1-\tan^2{\Theta}}{1 + \tan^2{\Theta}} = - \frac{3}{5}$\\
 \begin{equation*}
